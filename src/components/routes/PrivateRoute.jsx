@@ -5,7 +5,7 @@ import { Spinner } from 'react-bootstrap';
 
 const PrivateRoute = ({children}) => {
     const location =useLocation();
-    const {user,loader}= useContext(AuthContext);
+    const{user,loader}= useContext(AuthContext);
     if(loader){
         return <Spinner animation="border" variant="danger" />
     }
