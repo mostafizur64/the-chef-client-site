@@ -19,7 +19,7 @@ const Banner = () => {
           <img
             className="d-block w-100"
             src="https://img.freepik.com/free-vector/flat-design-chef-career-sale-banner_23-2149925254.jpg?w=900&t=st=1683178910~exp=1683179510~hmac=f7f7b4e557cd8bae1cf7b53d85c4b66446440b311638c521fa95d59ba2ef3e79"
-            alt="Second slide"
+            alt="Second slide "
           />
   
           <Carousel.Caption>
