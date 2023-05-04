@@ -8,7 +8,7 @@ import { Toaster } from 'react-hot-toast';
 
 const Main = () => {
     return (
-        <Container style={{width: 'calc(100vh -64px)'}}>
+        <Container>
             <Header></Header>
             <Outlet></Outlet>
             <Toaster></Toaster>
