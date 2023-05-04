@@ -15,7 +15,7 @@ const Chefs = () => {
 
   return (
       
-    <Row xs={1} lg={3} className="g-4 mt-4">
+    <Row xs={1} lg={3}className="g-4 mt-4">
     {chefs.map((chef) => (
       <Col>
        <SingleChefCart key={chef.id} chef={chef}></SingleChefCart>
