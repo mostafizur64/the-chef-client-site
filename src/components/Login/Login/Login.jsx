@@ -2,9 +2,10 @@ import React, { useContext, useState } from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../Provider/AuthProvider';
-import { GithubAuthProvider, getAuth, signInWithPopup } from 'firebase/auth';
+import { getAuth,  } from 'firebase/auth';
 import { toast } from 'react-hot-toast';
 import { FaGoogle,FaGithub} from 'react-icons/fa';
+
 const auth = getAuth();
 
 const Login = () => {
